@@ -37,6 +37,9 @@ public class Basket : MonoBehaviour
         // You can add logic here to update score or inventory
         Debug.Log("Item collected: " + item.name);
 
+        // Register the collected item with the GameManager
+        GameManager.Instance.RegisterCollectedItem(item);
+
         // Destroy the collected item
         Destroy(item);
     }
