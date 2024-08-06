@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.meta.xr.sdk.audio": {
+      "version": "67.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://npm.developer.oculus.com"
+    },
     "com.meta.xr.sdk.core": {
       "version": "63.0.0",
       "depth": 0,
@@ -35,6 +42,13 @@
         "com.meta.xr.sdk.core": "63.0.0",
         "com.unity.ugui": "1.0.0"
       },
+      "url": "https://npm.developer.oculus.com"
+    },
+    "com.meta.xr.sdk.voice": {
+      "version": "67.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://npm.developer.oculus.com"
     },
     "com.unity.collab-proxy": {
